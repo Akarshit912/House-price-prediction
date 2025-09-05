@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="images\logo.png" alt="logo"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>House Price Predictor</title>
+  </head>
+  <body style="background-color: #121212;">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">
+            <img src="images/logo.png" height="120"></a>
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#Explore">Explore</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="http://127.0.0.1:5001/">Price prediction</a></li>
+      </ul>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="home">
+      <div class="header__image">
+        <img class="Header__image" src="images/back_2.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <div>
+          <h1>Find the Right Property Just For You  </h1>
+          <p>
+            Dive into in-depth analysis and detailed descriptions of Property
+            Prices and find a right match just for you.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container deals__container">
+      <div class="deals__card">
+        <h2 class="section__header">Feature of Our Site</h2>
+      </div>
+      <div class="deals__card">
+        <span><img src="images/money-rupee-circle-fill.png"></span>
+        <a href=""><h4>Property price prediction</h4></a>
+        <p>Our sites uses an efficient Machune learning Algorithm to predict the prices of properties and house at any location you want.</p>
+      </div>
+      <div class="deals__card">
+        <span><img src="images/earth-line.png"></span>
+        <a href=""><h4>Uses map for accurate location</h4></a>
+        <p>You can use map to pin point exact location and area you want your new house to be in.</p>
+      </div>
+      <div class="deals__card">
+        <span ><img src="images/home-wifi-fill.png" ></span>
+        <a href=""><h4>Smart Play</h4></a>
+        <p>Play Smart don't search for prices of property here and there,Consulting multiple brokers just use our site .</p>
+      </div>
+    </section>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <div>
+          <h2 class="section__header">About Us</h2>
+          <p class="section__description">
+            Our Site focuses on providing you the exact prices of house you are looking for .
+          </p>
+        </div><a href="About.html"><button class="about__btn">Learn More</button></a>
+
+      </div>
+      <div class="about__content">
+        <div class="about__image">
+          <img src="images/house1.jpg" alt="" />
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <a href=""><h3>Real Estate Valuation:</h3></a>
+            <div id="chartdiv"></div>
+            <p>Real estate agents, buyers, and sellers can use the model to obtain accurate and instant property valuations, helping them make informed decisions on pricing, offers, or investments.
+            </p>
+          </div>
+          <div class="about__card">
+            <a href=""><h3>Smart City Planning:             </h3>
+            <p>Urban planners and government bodies can incorporate the model's predictions to understand housing trends, plan infrastructure, and allocate resources efficiently in growing or declining areas.
+            </p>
+            </a>
+          </div>
+          <div class="about__card">
+            <a href=""><h3>Loan Applications:        </h3></a>
+            <p>Financial institutions can utilize the model to assess property values when approving loans or mortgages, reducing risk and ensuring fair lending practices.</p>
+          </div>
+          <div class="about__card">
+            <a href=""><h3>Personalized Recommendation: </h3></a>
+            <p>Real estate platforms can integrate the model to provide users with tailored property suggestions based on predicted future value, location, and other factors, improving the overall user experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container product__container" id="Explore">
+      <h2 class="section__header">Featured Hoses</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <a href="">
+            <h4>House1</h4>
+          <img src="images/house1.jpg" alt="product" /></a>
+        </div>
+        <div class="product__card">
+          <a href="">
+          <h4>House2</h4>
+          <img src="images/house2.webp" alt="product" /></a>
+        </div>
+        <div class="product__card">
+          <a href="">
+          <h4>House3</h4>
+          <img src="images/house3.jpeg" alt="product" /></a>
+        </div>
+        <div class="product__card">
+          <a href="">
+          <h4>House4</h4>
+          <img src="images/house4.jpeg" alt="product" /></a>
+        </div>
+        <div class="product__card">
+          <a href="">
+          <h4>House5</h4>
+          <img src="images/house5.webp" alt="product" /></a>
+        </div>
+        <div class="product__card">
+          <a href="">
+          <h4>House6</h4>
+          <img src="house6.jpg" alt="product" /></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">PROJECT_NAME 2024</a>
+          </div>
+          <p>
+            some Text
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#Explore">Explore</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li><a href="akarshagrawal912@gmail.com">Email Us</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 PROJECT_NAME. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
